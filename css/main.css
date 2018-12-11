@@ -13,6 +13,8 @@ body {
 
 section {
   display: flex;
+  flex-grow: ;
+  flex-direction: row;
 }
 
 section div {
@@ -65,7 +67,7 @@ p :nth-child(2) {
   border-radius: 8px;
   display: block;
   text-align: left;
-  padding: .6em;
+  padding: .75em;
   margin: 1.5em 0.5em;
   font-size: .875em;
   font-weight: bold;
@@ -77,9 +79,9 @@ p :nth-child(2) {
   border-radius: 8px;
   display: block;
   text-align: left;
-  padding: .6em;
+  padding: .75em;
   margin: 3em 0.5em;
-  margin-bottom: .5em;
+  margin-bottom: .75em;
   font-size: .875em;
   font-weight: bold;
 }
