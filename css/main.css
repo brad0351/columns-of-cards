@@ -9,19 +9,17 @@ html {
 }
 
 body {
-  margin: 0;
 }
 
 section {
   display: flex;
-  Padding: .75rem;
-  margin-left: .25em
 }
 
 section div {
   border-left: solid;
-  width: 25%;
+  border-width: thin;
   margin: 0;
+  width: 25%;
 }
 
 
@@ -30,7 +28,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: .2em;
+  margin-top: .75em;
 }
 
 
@@ -60,6 +58,7 @@ p :nth-child(2) {
   font-size: 1rem;
 }
 
+
 .btn {
   color: #f2f2f2;
   background-color: #333;
@@ -72,16 +71,38 @@ p :nth-child(2) {
   font-weight: bold;
 }
 
-.card1){
+.btn2 {
+  color: #f2f2f2;
+  background-color: #333;
+  border-radius: 8px;
+  display: block;
+  text-align: left;
+  padding: .6em;
+  margin: 3em 0.5em;
+  margin-bottom: .5em;
+  font-size: .875em;
+  font-weight: bold;
+}
+
+
+.card1{
   background-color: #e2e2e2;
+  border-right: #333;
+  border-width: thin;
 }
 
 .card2{
   background-color: #ccc;
+  border-right: #333;
+  border-width: thin;
 }
 .card3{
   background-color: #aaa;
+  border-right: #333;
+  border-width: thin;
 }
 .card4{
   background-color: #999;
+  border-right: #333;
+  border-width: thin;
 }
