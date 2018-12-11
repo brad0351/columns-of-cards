@@ -1,15 +1,19 @@
 html {
   box-sizing: border-box;
-  font-family: Open Sans, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-  }
+}
+
+body {
+  margin: 0 auto 1.5rem;
+}
 
 section {
   display: flex;
-  flex-grow: img;
+  flex-grow: 1;
   flex-direction: row;
 }
 
@@ -20,7 +24,6 @@ section div {
   width: 25%;
 }
 
-
 img {
   width: 100px;
   display: block;
@@ -28,7 +31,6 @@ img {
   margin-right: auto;
   margin-top: .75em;
 }
-
 
 h2 {
   text-align: center;
@@ -52,10 +54,10 @@ p :nth-child(1) {
   font-size: .875rem;
   font-style: italic;
 }
+
 p :nth-child(2) {
   font-size: 1rem;
 }
-
 
 .btn {
   color: #f2f2f2;
@@ -64,7 +66,7 @@ p :nth-child(2) {
   display: block;
   text-align: left;
   padding: .75em;
-  margin: 1.5em 0.5em;
+  margin: 1.5em .5em;
   font-size: .875em;
   font-weight: bold;
 }
@@ -75,32 +77,39 @@ p :nth-child(2) {
   border-radius: 8px;
   display: block;
   text-align: left;
-  padding: .75em;
-  margin: 3em 0.5em;
+  padding: .7em;
+  margin: 3em .5em;
   margin-bottom: .75em;
   font-size: .875em;
   font-weight: bold;
 }
 
-
-.card1{
+.card1 {
   background-color: #e2e2e2;
   border-right: #333;
   border-width: thin;
 }
 
-.card2{
+.card2 {
   background-color: #ccc;
   border-right: #333;
   border-width: thin;
 }
-.card3{
+
+.card3 {
   background-color: #aaa;
   border-right: #333;
   border-width: thin;
 }
-.card4{
+
+.card4 {
   background-color: #999;
   border-right: #333;
   border-width: thin;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
 }
