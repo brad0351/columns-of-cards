@@ -12,6 +12,19 @@ body {
   margin: 0;
 }
 
+section {
+  display: flex;
+  Padding: .75rem;
+  margin-left: .25em
+}
+
+section div {
+  border-left: solid;
+  width: 25%;
+  margin: 0;
+}
+
+
 img {
   width: 100px;
   display: block;
@@ -41,6 +54,7 @@ p {
 
 p :nth-child(1) {
   font-size: .875rem;
+  font-style: italic;
 }
 p :nth-child(2) {
   font-size: 1rem;
@@ -54,21 +68,20 @@ p :nth-child(2) {
   text-align: left;
   padding: .6em;
   margin: 1.5em 0.5em;
+  font-size: .875em;
+  font-weight: bold;
 }
 
-a {
-    align-items: stretch;
+.card1){
+  background-color: #e2e2e2;
 }
 
-section {
-  display: flex;
-  Padding: .75rem;
-  background: #f2f2f2;
-  margin-left: .25em
+.card2{
+  background-color: #ccc;
 }
-
-section div {
-  width: 25%;
-  border-left: solid;
-  border-color: black;
+.card3{
+  background-color: #aaa;
+}
+.card4{
+  background-color: #999;
 }
