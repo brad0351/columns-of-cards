@@ -42,7 +42,7 @@ css:
       - 'display: flex'
       - 'flex-direction'
       - 'flex-grow'
-      - 'width: 25%'
+      - 'width: 100px'
       - '#f2f2f2'
       - '#333'
       - '#e2e2e2'
