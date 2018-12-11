@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  font-family: Open Sans, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  display: inline-block;
+  flex-direction: row;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Float four columns side by side */
+section .column {
+  width: 25%;
+  padding: 0 10px;
+  display: ;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+ .row {margin: 0 -5px;}
+ 
+
+/* Clear floats after the columns */
+ .row:after {
+  display: inline-block;
+  clear: both;
+  flex-direction: row;
+}
+
+/* Responsive columns */
+@media screen and (min-width: 1400px) {
+ .column {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    flex-direction: row;
+  }
+}
+
+/* Style the counter cards */
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  display: inline-block;
+  flex-direction: row;
+}
