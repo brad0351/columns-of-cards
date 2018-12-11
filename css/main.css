@@ -5,15 +5,11 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-}
-
-body {
-}
+  }
 
 section {
   display: flex;
-  flex-grow: ;
+  flex-grow: img;
   flex-direction: row;
 }
 
