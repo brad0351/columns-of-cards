@@ -26,11 +26,27 @@ section div {
 }
 
 img {
-  width: 100px;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: .75em;
+}
+
+.card1 img {
+  width: 100px;
+}
+
+.card2 img {
+  width: 100px;
+}
+
+.card3 img {
+  width: 100px;
+}
+
+.card4 img {
+  width: 100px;
 }
 
 h2 {
